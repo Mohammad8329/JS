@@ -9,28 +9,33 @@ Welcome to my JavaScript learning journey tracker! This index logs all topics, d
 ```text
 JS/
 ├── index.md                 # Master Table of Contents (This file)
-└── <Topic-Name>/            # Topic Folder (e.g., 01-Basics, 02-DOM-Manipulation)
-    └── <YYYY-MM-DD>/        # Date Folder (e.g., 2026-09-04)
-        └── README.md / *.js # Daily code & notes
+└── <Topic-Name>/            # Topic Folder (e.g., ifelse, ternaryoperator, switchcase)
+    ├── notes.md             # Topic study notes
+    └── <DD-MM-YYYY>/        # Date Folder (e.g., 07-09-2026)
+        └── *.js             # Daily code files
 ```
 
 ---
 
 ## 📚 Topics & Daily Logs
 
-| # | Topic | Date | Description | Path | Status |
-|---|---|---|---|---|---|
-| *Sample* | *JavaScript Basics* | *2026-09-04* | *Variables, Data Types, and Operators* | [`01-Basics/2026-09-04`](./01-Basics/2026-09-04/) | ⏳ In Progress |
+| # | Topic | Date | Description | Notes | Daily Work | Status |
+|---|---|---|---|---|---|---|
+| 01 | **If-Else** | `04-09-2026` | Conditional statements, ASCII values, leap year check | [`notes.md`](./ifelse/04-09-2026/notes.md) | [`04-09-2026`](./ifelse/04-09-2026/) | ✅ Completed |
+| 02 | **Ternary Operator** | `07-09-2026` | Syntax `condition ? true : false`, shorthand `if-else`, nested ternaries | [`notes.md`](./ternaryoperator/notes.md) | [`07-09-2026`](./ternaryoperator/07-09-2026/) | ✅ Completed |
+| 03 | **Switch Case** | `07-09-2026` | `switch`, `case`, `break`, `default`, fall-through behavior, `switch(true)` pattern | [`notes.md`](./switchcase/notes.md) | [`07-09-2026`](./switchcase/07-09-2026/) | ✅ Completed |
 
 ---
 
 ## 🎯 Quick Navigation
 
-- [01-Basics](./01-Basics/) *(Pending creation)*
+- [01. If-Else Control Flow](./ifelse/04-09-2026/notes.md)
+- [02. Ternary Operator](./ternaryoperator/notes.md)
+- [03. Switch Case](./switchcase/notes.md)
 
 ---
 
 ## 📝 Usage Notes
-- Every time a new topic is started, create a topic folder (e.g., `01-Variables-and-DataTypes`).
-- Inside the topic folder, create a date subfolder (e.g., `2026-09-04`).
-- Record code exercises and notes inside the date subfolder and link them here in `index.md`.
+- Every time a new topic is started, create a topic folder (e.g., `switchcase`).
+- Inside the topic folder, create date subfolders (e.g., `07-09-2026`) for daily code files.
+- Keep topic-level notes in `notes.md` or date-level `notes.md` and log them in `index.md`.
