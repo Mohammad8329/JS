@@ -9,11 +9,16 @@ Welcome to my JavaScript learning journey tracker! This index logs all topics, d
 ```text
 JS/
 ├── index.md                 # Master Table of Contents (This file)
-└── module1/                 # Module 1 Fundamentals
-    └── <Topic-Name>/        # Topic Folder (e.g., ifelse, ternaryoperator, loop)
-        ├── notes.md         # Topic study notes
-        └── <DD-MM-YYYY>/    # Date Folder (e.g., 07-09-2026)
-            └── *.js         # Daily code files
+├── module1/                 # Module 1 Fundamentals
+│   └── <Topic-Name>/        # Topic Folder (e.g., ifelse, ternaryoperator, loop)
+│       ├── notes.md         # Topic study notes
+│       └── <DD-MM-YYYY>/    # Date Folder (e.g., 07-09-2026)
+│           └── *.js         # Daily code files
+├── contest/                 # Contests & Problem Solving
+│   └── <DD-MM-YYYY>/        # Contest Date Folder
+│       └── *.js             # Contest solutions
+└── quicknotes/              # Revision Sheets & Quick Notes
+    └── *.md                 # Revision notes
 ```
 
 ---
@@ -34,6 +39,22 @@ JS/
 
 ---
 
+## 🏆 Contests & Problem Solving
+
+| Date | Contest / Problem | Description | Solution File | Status |
+|---|---|---|---|---|
+| `11-09-2026` | **Convert Days to Years, Months, and Days** | Convert days `d` into years (365d), months (30d), and days | [`Convert Days...js`](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js) | ✅ Solved |
+
+---
+
+## ⚡ Quick Notes & Revision Sheets
+
+| Topic / Title | Date | Description | File |
+|---|---|---|---|
+| **Arithmetic, Logical Operators & Conditionals** | `12-09-2026` | High-yield one-shot revision sheet for arithmetic, logical operators, short-circuiting, and conditionals | [`arithmetic_and_conditionals_revision.md`](./quicknotes/arithmetic_and_conditionals_revision.md) |
+
+---
+
 ## 🎯 Quick Navigation
 
 - [01. If-Else Control Flow](./module1/ifelse/04-09-2026/notes.md)
@@ -45,6 +66,8 @@ JS/
 - [07. Logical Operators](./module1/logicaloperator/notes.md)
 - [08. Arithmetic Operations](./module1/arithmeticoperator/notes.md)
 - [09. Sequence of Execution](./module1/sequenceofexecution/notes.md)
+- [🏆 Contest: Convert Days to Years, Months, and Days](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js)
+- [⚡ Quick Revision: Arithmetic & Conditionals](./quicknotes/arithmetic_and_conditionals_revision.md)
 
 ---
 
