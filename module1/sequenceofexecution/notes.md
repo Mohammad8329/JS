@@ -40,6 +40,18 @@ Operators with **higher precedence** are evaluated first.
 | **3** | Logical OR | `\|\|` | Left-to-Right |
 | **2** | Conditional / Assignment | `? :` `=` `+=` `-=` | Right-to-Left |
 
+### 🧠 JS Precedence Cheat Sheet
+
+| Block | Order | Memory Trick |
+| :--- | :--- | :--- |
+| **1. Access** | Group `()` → Member `.` → Post `i++` → Pre `++i` | **G**ood **M**an **P**ost-**P**re |
+| **2. Math** | Exponent `**` → Multiply `*` → Add `+` | **E**mail **M**ail **A**ddress |
+| **3. Tests** | Relational `<` → Equality `==` | **R**eal **E**lves |
+| **4. Logic** | AND `&&` → OR `||` → Assign `=` | **A**nd **O**r **C**ats |
+
+*🔄 **Right-to-Left** exceptions: Pre-increment (`++i`), Exponent (`**`), and Assignment (`=`). All others are Left-to-Right.*
+
+
 ---
 
 ## 3. Associativity (Left-to-Right vs Right-to-Left)
