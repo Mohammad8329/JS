@@ -38,6 +38,7 @@ JS/
 | 09 | **Sequence of Execution** | `11-09-2026` | Line-by-line execution, operator precedence table, associativity rules | [`notes.md`](./module1/sequenceofexecution/notes.md) | [`11-09-2026`](./module1/sequenceofexecution/11-09-2026/) | ✅ Completed |
 | 10 | **Arrays** | `21-09-2026` | Array creation, indexing, length, iteration, methods (`push`/`pop`/`shift`/`unshift`/`slice`/`splice`), reference types | [`notes.md`](./module1/array/notes.md) | [`21-09-2026`](./module1/array/21-09-2026/) | ✅ Completed |
 | 11 | **Functions** | `15-09-2026` | Function declarations, expressions, arrow functions, parameters/arguments, return statement, scope, pass-by-reference | [`notes.md`](./module1/function/notes.md) | [`15-09-2026`](./module1/function/15-09-2026/) | ✅ Completed |
+| 12 | **Strings** | `24-09-2026` | String literals, immutability, methods (`charAt`/`slice`/`substring`/`indexOf`/`includes`/`split`/`trim`/`replace`), templates | [`notes.md`](./module1/string/notes.md) | [`24-09-2026`](./module1/string/24-09-2026/) | ✅ Completed |
 
 ---
 
@@ -70,6 +71,7 @@ JS/
 - [09. Sequence of Execution](./module1/sequenceofexecution/notes.md)
 - [10. Arrays](./module1/array/notes.md)
 - [11. Functions](./module1/function/notes.md)
+- [12. Strings](./module1/string/notes.md)
 - [🏆 Contest: Convert Days to Years, Months, and Days](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js)
 - [⚡ Quick Revision: Arithmetic & Conditionals](./quicknotes/arithmetic_and_conditionals_revision.md)
 
