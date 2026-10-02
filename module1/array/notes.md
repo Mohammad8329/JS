@@ -517,6 +517,36 @@ console.log(val1); // "B"
 console.log(val2); // "A"
 ```
 
+### F. Nested Array Destructuring
+Unpack values from multi-dimensional / nested arrays:
+```javascript
+let matrix = [1, [2, 3], 4];
+
+let [p, [q, r], s] = matrix;
+console.log(p); // 1
+console.log(q); // 2
+console.log(r); // 3
+console.log(s); // 4
+```
+
+### G. Destructuring Function Arguments
+You can destructure an array passed directly into a function's parameter list:
+```javascript
+function printCoordinates([x, y]) {
+    console.log(`Latitude: ${x}, Longitude: ${y}`);
+}
+
+const point = [28.7041, 77.1025];
+printCoordinates(point); // Latitude: 28.7041, Longitude: 77.1025
+```
+
+### H. Array Destructuring vs. Object Destructuring
+| Feature | Array Destructuring (`let [a, b] = arr`) | Object Destructuring (`let { a, b } = obj`) |
+|---|---|---|
+| **Matching Rule** | **Ordered / Positional** (Index 0 goes to 1st variable, index 1 to 2nd) | **Key / Property Name** (Variable name must match property name) |
+| **Variable Naming** | Any custom names (e.g. `[first, second]`) | Matches key name (or requires renaming `key: alias`) |
+| **Syntax** | Square brackets `[ ... ]` on LHS | Curly braces `{ ... }` on LHS |
+
 ---
 
 ## 10. Array Mutation (Mutating vs Non-Mutating Operations)

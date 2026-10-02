@@ -39,6 +39,7 @@ JS/
 | 10 | **Arrays** | `21-09-2026` | Array creation, indexing, length, iteration, methods (`push`/`pop`/`shift`/`unshift`/`slice`/`splice`), reference types | [`notes.md`](./module1/array/notes.md) | [`21-09-2026`](./module1/array/21-09-2026/) | ✅ Completed |
 | 11 | **Functions** | `15-09-2026` | Function declarations, expressions, arrow functions, parameters/arguments, return statement, scope, pass-by-reference | [`notes.md`](./module1/function/notes.md) | [`15-09-2026`](./module1/function/15-09-2026/) | ✅ Completed |
 | 12 | **Strings** | `24-09-2026` | String literals, immutability, methods (`charAt`/`slice`/`substring`/`indexOf`/`includes`/`split`/`trim`/`replace`), templates | [`notes.md`](./module1/string/notes.md) | [`24-09-2026`](./module1/string/24-09-2026/) | ✅ Completed |
+| 13 | **Objects** | `29-09-2026` | Object literals, dot vs bracket notation, `for...in`, `Object.keys/values/entries`, methods, `this`, destructuring, arrays of objects | [`notes.md`](./module1/objects/notes.md) | [`29-06-2026`](./module1/objects/29-06-2026/) | ✅ Completed |
 
 ---
 
@@ -55,6 +56,7 @@ JS/
 | Topic / Title | Date | Description | File |
 |---|---|---|---|
 | **Arithmetic, Logical Operators & Conditionals** | `12-09-2026` | High-yield one-shot revision sheet for arithmetic, logical operators, short-circuiting, and conditionals | [`arithmetic_and_conditionals_revision.md`](./quicknotes/arithmetic_and_conditionals_revision.md) |
+| **String Production Shortnotes** | `29-09-2026` | Real-world high-frequency string methods and production code patterns | [`shortnotes.md`](./module1/string/shortnotes.md) |
 
 ---
 
@@ -72,8 +74,10 @@ JS/
 - [10. Arrays](./module1/array/notes.md)
 - [11. Functions](./module1/function/notes.md)
 - [12. Strings](./module1/string/notes.md)
+- [13. Objects](./module1/objects/notes.md)
 - [🏆 Contest: Convert Days to Years, Months, and Days](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js)
 - [⚡ Quick Revision: Arithmetic & Conditionals](./quicknotes/arithmetic_and_conditionals_revision.md)
+- [⚡ Quick Revision: String Production Shortnotes](./module1/string/shortnotes.md)
 
 ---
 
