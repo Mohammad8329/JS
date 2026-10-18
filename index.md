@@ -42,6 +42,7 @@ JS/
 | 13 | **Objects** | `29-09-2026` | Object literals, dot vs bracket notation, `for...in`, `Object.keys/values/entries`, methods, `this`, destructuring, arrays of objects | [`notes.md`](./module1/objects/notes.md) | [`29-06-2026`](./module1/objects/29-06-2026/) | ✅ Completed |
 | 14 | **Searching** | `01-10-2026` | Linear search, step-by-step dry runs, complexity analysis, problem solving (max/min, frequency, strings, 2D matrix) | [`notes.md`](./module1/search/notes.md) | [`01-10-2026`](./module1/search/01-10-2026/) | ✅ Completed |
 | 15 | **Sorting** | `01-10-2026` | Built-in `.sort()`, "10 vs 2" gotcha, comparator function, Bubble Sort, Selection Sort, Insertion Sort, array of objects | [`notes.md`](./module1/sorting/notes.md) | [`01-10-2026`](./module1/sorting/01-10-2026/) | ✅ Completed |
+| 16 | **Nested Loops (Module 2)** | `13-10-2026` | Clock analogy, dry runs, pattern printing (triangles, pyramids), 2D matrix traversal, pair generation, labeled loops | [`notes.md`](./module2/nested%20loops/notes.md) | [`13-10-2026`](./module2/nested%20loops/13-10-2026/) | ✅ Completed |
 
 ---
 
@@ -79,6 +80,7 @@ JS/
 - [13. Objects](./module1/objects/notes.md)
 - [14. Searching](./module1/search/notes.md)
 - [15. Sorting](./module1/sorting/notes.md)
+- [16. Nested Loops (Module 2)](./module2/nested%20loops/notes.md)
 - [🏆 Contest: Convert Days to Years, Months, and Days](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js)
 - [⚡ Quick Revision: Arithmetic & Conditionals](./quicknotes/arithmetic_and_conditionals_revision.md)
 - [⚡ Quick Revision: String Production Shortnotes](./module1/string/shortnotes.md)
