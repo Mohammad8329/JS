@@ -28,7 +28,8 @@ JS/
 │   └── revision/                       # Mock interview questions & comprehensive revision
 ├── module2/                            # Module 2: Advanced Iteration, Nested Data & Matrices
 │   ├── nested loops/                   # Subarrays, order aggregation, pairs & pattern printing
-│   └── nestarrayString/                # 2D arrays, matrix diagonals, transposes & column operations
+│   ├── nestarrayString/                # 2D arrays, matrix diagonals, transposes & column operations
+│   └── binary search/                  # Divide & conquer search, bounds, frequencies & matrices
 ├── contest/                            # Contests & Timed Problem Solving
 │   └── <DD-MM-YYYY>/                   # Contest date folder & solutions
 └── quicknotes/                         # High-yield Revision & Quick Reference Sheets
@@ -65,13 +66,14 @@ JS/
 |:---:|---|---|---|:---:|:---:|:---:|
 | **01** | **Nested Loops** | `13-10-2026`<br>`14-10-2026` | Clock analogy, dependent vs independent loops, inner vs labeled `break`/`continue`, generating all subarrays (`structuredClone`), Maximum Subarray Sum (Kadane's / brute-force), unique pair generation, nested iteration over Arrays of Objects (order item calculations, line-item pricing `price * quantity`, order totals & customer billing summaries), pattern printing (stars, triangles, pyramids, Floyd's triangle) | [`notes.md`](./module2/nested%20loops/notes.md) | [`13-10-2026`](./module2/nested%20loops/13-10-2026/)<br>[`14-10-2026`](./module2/nested%20loops/14-10-2026/) | ✅ Completed |
 | **02** | **Nested Arrays & Matrices** | `16-10-2026` | 2D Arrays & Grid representation ($N \times M$), Row-wise & Column-wise traversals, Primary diagonal ($i === j$) & Secondary anti-diagonal ($i + j === n - 1$), Matrix Transpose ($mat[i][j] \to res[j][i]$), in-place column swapping (first & last column swap) | [`notes.md`](./module2/nestarrayString/notes.md) | [`16-10-2026`](./module2/nestarrayString/16-10-2026/) | ✅ Completed |
+| **03** | **Binary Search** | `22-10-2026` | Divide and conquer searching, $\mathcal{O}(\log N)$, overflow-safe mid, first/last occurrences, search insert position, floor/ceil, 2D matrix binary search | [`note.md`](./module2/binary%20search/note.md) | [`22-10-2026`](./module2/binary%20search/22-10-2026/) | 🔄 In Progress |
 
 ---
 
 ## 🏆 Contests & Problem Solving
 
 | Date | Challenge / Problem | Problem Description | Solution File | Status |
-|:---:|---|---|:---:|:---:|
+|:---:|---|---|---|:---:|
 | `11-09-2026` | **Convert Days to Years, Months, and Days** | Convert an integer day count `d` into standard calendar units (365 days/year, 30 days/month, remainder days) | [`Convert Days...js`](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js) | ✅ Solved |
 
 ---
@@ -109,6 +111,7 @@ JS/
 ### Module 2: Advanced Iteration, Nested Data & Matrices
 - [01. Nested Loops & Subarray Patterns](./module2/nested%20loops/notes.md)
 - [02. 2D Arrays & Matrix Manipulations](./module2/nestarrayString/notes.md)
+- [03. Binary Search Algorithms](./module2/binary%20search/note.md)
 
 ### Contests & Quick Reference
 - [🏆 Contest: Convert Days to Years, Months, and Days](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js)
