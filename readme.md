@@ -30,7 +30,8 @@ JS/
 │   ├── nested loops/                   # Subarrays, order aggregation, pairs & pattern printing
 │   ├── nestarrayString/                # 2D arrays, matrix diagonals, transposes & column operations
 │   ├── binary search/                  # Divide & conquer search, bounds, frequencies & matrices
-│   └── sets/                           # Unique collections, SameValueZero, deduplication & Set ops
+│   ├── sets/                           # Unique collections, SameValueZero, deduplication & Set ops
+│   └── map/                            # Keyed collections, Map vs Object, frequency counting & caching
 ├── contest/                            # Contests & Timed Problem Solving
 │   └── <DD-MM-YYYY>/                   # Contest date folder & solutions
 └── quicknotes/                         # High-yield Revision & Quick Reference Sheets
@@ -69,6 +70,7 @@ JS/
 | **02** | **Nested Arrays & Matrices** | `16-10-2026` | 2D Arrays & Grid representation ($N \times M$), Row-wise & Column-wise traversals, Primary diagonal ($i === j$) & Secondary anti-diagonal ($i + j === n - 1$), Matrix Transpose ($mat[i][j] \to res[j][i]$), in-place column swapping (first & last column swap) | [`notes.md`](./module2/nestarrayString/notes.md) | [`16-10-2026`](./module2/nestarrayString/16-10-2026/) | ✅ Completed |
 | **03** | **Binary Search** | `22-10-2026` | Divide and conquer searching, $\mathcal{O}(\log N)$, overflow-safe mid, first/last occurrences, search insert position, floor/ceil, 2D matrix binary search | [`note.md`](./module2/binary%20search/note.md) | [`22-10-2026`](./module2/binary%20search/22-10-2026/) | 🔄 In Progress |
 | **04** | **Sets** | `23-10-2026` | Unique collections, SameValueZero equality, reference vs primitive equality, `.size` property, `.add`, `.has`, `.delete`, `.clear`, iteration (`for...of`, `.forEach`), array deduplication, set operations (union, intersection, difference) | [`notes.md`](./module2/sets/notes.md) | [`23-10-2026`](./module2/sets/23-10-2026/) | ✅ Completed |
+| **05** | **Map** | `26-10-2026` | Key-value collections, arbitrary key types, SameValueZero, `.set`/`.get`/`.has`/`.delete`, `for...of` entries, frequency mapping, Two Sum & caching | [`notes.md`](./module2/map/notes.md) | [`26-10-2026`](./module2/map/26-10-2026/) | 🔄 In Progress |
 
 ---
 
@@ -115,6 +117,7 @@ JS/
 - [02. 2D Arrays & Matrix Manipulations](./module2/nestarrayString/notes.md)
 - [03. Binary Search Algorithms](./module2/binary%20search/note.md)
 - [04. JavaScript Sets & Deduplication](./module2/sets/notes.md)
+- [05. JavaScript Map & Frequency Patterns](./module2/map/notes.md)
 
 ### Contests & Quick Reference
 - [🏆 Contest: Convert Days to Years, Months, and Days](./contest/11-09-2026/Convert%20Days%20to%20Years,%20Months,%20and%20Days.js)
