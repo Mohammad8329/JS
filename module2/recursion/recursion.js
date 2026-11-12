@@ -69,7 +69,7 @@
 // factorial
 
 function factorial(n,i=1, total = 1){
-    if(i === n){
+    if(i > n){
         return total;
     }
     if(n === 0){
@@ -78,4 +78,4 @@ function factorial(n,i=1, total = 1){
     return factorial(n, i + 1, total * i);
 }
 
-console.log(factorial(2));
+console.log(factorial(0));
